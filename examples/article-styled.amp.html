@@ -39,6 +39,23 @@
   </script>
   <style>body {opacity: 0}</style><noscript><style>body {opacity: 1}</style></noscript>
   <style amp-custom>
+
+  html{
+    font-family: Georgia, "Times New Roman", serif;
+    line-height: 1.4;
+    font-size: 13px;
+  }
+  @media screen and (min-width: 500px){
+    html{
+      font-size: 14px;
+    }
+  }
+  @media screen and (min-width: 570px){
+    html{
+      font-size: 15px;
+    }
+  }
+
     body {
       background-color: white;
     }
@@ -59,7 +76,6 @@
     }
 
     article {
-      font-family: Georgia, Times New Roman;
       margin: 0 auto 60px auto;
     }
 
@@ -86,6 +102,7 @@
       margin: 40px 0 0;
       font-family: Neuton, Georgia, Times New Roman;
       font-size: 40px;
+      line-height: 2.7rem;
       border-bottom: 1px solid black;
     }
 
@@ -234,8 +251,8 @@
       article amp-ad,
       header h1,
       footer p {
-        margin-left: 32px;
-        margin-right: 32px;
+        margin-left: 2rem;
+        margin-right: 2rem;
       }
     }
 
@@ -291,7 +308,7 @@
     <p>Curabitur sit amet mauris. Morbi in dui quis est pulvinar ullamcorper. Nulla facilisi. Integer lacinia sollicitudin massa. Cras metus. Sed aliquet risus a tortor. Integer id quam. Morbi mi. Quisque nisl felis, venenatis tristique, dignissim in, ultrices
       sit amet, augue. Proin sodales libero eget ante. Nulla quam. Aenean laoreet. Vestibulum nisi lectus, commodo ac, facilisis ac, ultricies eu, pede.</p>
 
-    <amp-carousel width=600 height=200>
+    <amp-carousel width=600 height=200 layout=responsive>
       <amp-img src="https://lh3.googleusercontent.com/pSECrJ82R7-AqeBCOEPGPM9iG9OEIQ_QXcbubWIOdkY=w300-h200-no" width=300 height=200></amp-img>
       <amp-img src="https://lh3.googleusercontent.com/5rcQ32ml8E5ONp9f9-Rf78IofLb9QjS5_0mqsY1zEFc=w300-h200-no" width=300 height=200></amp-img>
       <amp-img src="https://lh3.googleusercontent.com/Z4gtm5Bkxyv21Z2PtbTf95Clb9AE4VTR6olbBKYrenM=w300-h200-no" width=300 height=200></amp-img>
@@ -330,36 +347,31 @@
         <li>
           <a href="">
             <amp-img src="img/placeholder.png" alt="Lorem Ipsum?" width="32" height="32"></amp-img>
-            <h3>Lorem ipsum dolor sit amet
-              <h3>
+            <h3>Lorem ipsum dolor sit amet</h3>
           </a>
         </li>
         <li>
           <a href="">
             <amp-img src="img/placeholder.png" alt="Lorem Ipsum?" width="32" height="32"></amp-img>
-            <h3>Class aptent taciti sociosqu
-              <h3>
+            <h3>Class aptent taciti sociosqu</h3>
           </a>
         </li>
         <li>
           <a href="">
             <amp-img src="img/placeholder.png" alt="Lorem Ipsum?" width="32" height="32"></amp-img>
-            <h3>Curabitur sodales ligula in libero
-              <h3>
+            <h3>Curabitur sodales ligula in libero</h3>
           </a>
         </li>
         <li>
           <a href="">
             <amp-img src="img/placeholder.png" alt="Lorem Ipsum?" width="32" height="32"></amp-img>
-            <h3>Fusce nec tellus sed augue
-              <h3>
+            <h3>Fusce nec tellus sed augue</h3>
           </a>
         </li>
         <li>
           <a href="">
             <amp-img src="img/placeholder.png" alt="Lorem Ipsum?" width="32" height="32"></amp-img>
-            <h3>Nulla metus metus, ullamcorper vel
-              <h3>
+            <h3>Nulla metus metus, ullamcorper vel</h3>
           </a>
         </li>
       </ul>
